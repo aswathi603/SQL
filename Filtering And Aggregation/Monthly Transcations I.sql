@@ -68,7 +68,10 @@ FROM Transactions
 GROUP BY DATE_FORMAT(trans_date, '%Y-%m'), country 
 ORDER BY month, country;
 
+
+
 'Solution2: Using CTE'
+
 WITH MonthlyTransactions AS (
     SELECT DATE_FORMAT(trans_date, '%Y-%m') AS month, country, state, amount
     FROM Transactions 
@@ -81,6 +84,8 @@ SUM(CASE WHEN state = 'approved' THEN amount ELSE 0 END) AS approved_total_amoun
 FROM MonthlyTransactions 
 GROUP BY month, country 
 ORDER BY month, country;
+
+
 
 'Solution3: Using Subquery'
 SELECT month, country,

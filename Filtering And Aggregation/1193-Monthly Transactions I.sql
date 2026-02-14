@@ -1,7 +1,7 @@
 '''
 Question Link : https://leetcode.com/problems/monthly-transactions-i/
 
-Q3. Monthly Transactions I
+1193. Monthly Transactions I
 Solved
 Medium
 Topics

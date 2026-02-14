@@ -1,9 +1,8 @@
 '''
-Question Link:https://leetcode.com/problems/classes-with-at-least-5-students/description/?envType=problem-list-v2&envId=db-db2-filtering-aggregation
-
+Question Link: https://leetcode.com/problems/classes-with-at-least-5-students/
 -- Updated for streak tracking
 
-Q2. Classes With at Least 5 Students
+596. Classes With at Least 5 Students
 Solved
 Easy
 Topics

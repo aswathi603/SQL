@@ -82,3 +82,5 @@ AND (lat, lon) IN (
     GROUP BY lat, lon
     HAVING COUNT(*) = 1
 );
+
+

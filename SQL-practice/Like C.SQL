@@ -1,5 +1,7 @@
-'''
-Show first name and last name of patients who does not have allergies. (null)
+```
+
+Show first name of patients that start with the letter 'C'
+
 
 Table : patients
 primary key icon	patient_id	INT
@@ -13,10 +15,10 @@ allergies	TEXT
 height	INT
 weight	INT
 
+Source : https://www.sql-practice.com/
 
-https://www.sql-practice.com/
-
-'''
+```
 
 
-select first_name, last_name from patients where allergies is NULL;
+
+select first_name from patients where first_name like 'C%';

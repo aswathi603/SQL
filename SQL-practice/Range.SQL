@@ -19,4 +19,4 @@ https://www.sql-practice.com/
 ```
 
 
-Select first_name, last_name from patients where weight between 100 and 120;
+SELECT first_name, last_name FROM patients WHERE weight BETWEEN 100 AND 120;

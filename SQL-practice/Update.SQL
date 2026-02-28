@@ -1,7 +1,8 @@
-'''
-Show first name and last name of patients who does not have allergies. (null)
+```
+Update the patients table for the allergies column.
+If the patient's allergies is null then replace it with 'NKA'
 
-Table : patients
+Table : patients 
 primary key icon	patient_id	INT
 first_name	TEXT
 last_name	TEXT
@@ -16,7 +17,7 @@ weight	INT
 
 https://www.sql-practice.com/
 
-'''
 
+```
 
-SELECT first_name, last_name FROM patients WHERE allergies IS NULL;
+UPDATE patients SET allergies = 'NKA' WHERE allergies IS NULL;

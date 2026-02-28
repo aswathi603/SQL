@@ -17,4 +17,4 @@ weight	INT
 https://www.sql-practice.com/
 
 ```
-Select first_name, last_name ,gender from patients where gender like 'M%';
+SELECT first_name, last_name ,gender FROM patients WHERE gender LIKE 'M%';
